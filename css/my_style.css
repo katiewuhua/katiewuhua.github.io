@@ -4,7 +4,10 @@
 }
 
 p.redred{
+    background-color: black;
     color:#FF4040;
+    border: 5px solid;
+    border-color: brown;
     font-size: 200%;
     text-align: left;
     text-indent:4em；
