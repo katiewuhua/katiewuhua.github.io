@@ -1,6 +1,24 @@
+
+
+ol.katielist{
+    list-style-type: upper-alpha;
+}
+
+.table-80{
+    width: 80;
+}
+
 *{
     letter-spacing: 0.8px;
     line-height: 1.5em;
+}
+
+.bg-primary {
+    background-color: #ffd504 !important;
+    background-image: url(../assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 p.redred{
@@ -18,4 +36,31 @@ p.redred{
 }
 body{
     font-family: 'Noto Sans TC',sans-serif;
+}
+
+table.katietable{
+    width: 30%;
+    background-color:bisque
+    
+}
+
+table.katietable th{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+table.katietable td{
+    text-align: center;
+    border: 10px solid:#FF4040;
+}
+
+table.katietable    tr:nth-child(even){
+    background-color: #ffd504;
+    color: black;
+}
+
+table.katietable    tr:nth-child(odd){
+    background-color:bisque
+    color:  black;
 }
