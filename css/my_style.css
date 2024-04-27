@@ -28,11 +28,11 @@ p.redred{
     border-color: brown;
     font-size: 200%;
     text-align: left;
-    text-indent:4em；
+    text-indent:4em;
 }
 
 .blueblue{
-     color:	#6692EF;
+     color:	#000000;
 }
 body{
     font-family: 'Noto Sans TC',sans-serif;
@@ -74,3 +74,32 @@ table.katietable    tr:nth-child(odd){
     height: 300px;
     overflow: scroll;
 }
+
+.social-icons{
+    background-color: #ee652099;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.noto-serif-tc-regular {
+    font-family: "Noto Serif TC", serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+  
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+
+  
