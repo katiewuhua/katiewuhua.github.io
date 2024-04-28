@@ -52,7 +52,7 @@ table.katietable th{
 
 table.katietable td{
     text-align: center;
-    border: 10px solid:#FF4040;
+    border: 10px solid #FF4040
 }
 
 table.katietable    tr:nth-child(even){
@@ -61,7 +61,7 @@ table.katietable    tr:nth-child(even){
 }
 
 table.katietable    tr:nth-child(odd){
-    background-color:bisque
+    background-color:bisque;
     color:black ;
 }
 
@@ -88,7 +88,7 @@ table.katietable    tr:nth-child(odd){
     font-style: normal; 
 }
   
-.social-icons .social-icon {
+.social-icon{
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +99,11 @@ table.katietable    tr:nth-child(odd){
     border-radius: 100%;
     font-size: 1.5rem;
     margin-right: 1.5rem;
+    margin: 0px,0px,24px,0px;
 }
+
+
+
 
 
   
