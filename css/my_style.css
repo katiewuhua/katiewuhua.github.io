@@ -22,14 +22,17 @@ ol.katielist{
 }
 
 p.redred{
-    background-color: black;
-    color:#FF4040;
-    border: 5px solid;
-    border-color: brown;
-    font-size: 200%;
-    text-align: left;
-    text-indent:4em;
+    padding: 10px 50px 15px;
+    background-color: rgba(44, 182, 108, 0.5);
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(219, 235, 255);
+    border-radius: 5px;
+    margin: 0px 0px 10px;
+    background-image: url(../assets/img/bg-star.jpg.jpg);
+    font-size: 40px;
+    text-align: center;
 }
+
 
 .blueblue{
      color:	#000000;
