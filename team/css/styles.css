@@ -10996,12 +10996,12 @@ header.masthead h1, header.masthead .h1 {
 
 .test {
   font-size: 50px;
-  color:aquamarine;
+  color:white;
 
 }
 .redredss {
   color:white;
-  background-color:white ;
+
   border-radius: 0%;
   font-size: 20px;
   background-repeat: no-repeat;
@@ -11016,7 +11016,7 @@ header.masthead h1, header.masthead .h1 {
   
 
 .aaa{
-  background-color:rgb(255, 255, 255);
+  background-color:white;
   border-radius: 10px;
   background-size: 40px;
   background-image: none;
@@ -11025,7 +11025,7 @@ header.masthead h1, header.masthead .h1 {
 .aaaddd{
   font-size: 30px;
   color:rgb(245, 33, 0);
-  background-color:rgb(228, 244, 221);
+  background-color:white;
   border-radius: 0%;
   background-repeat: no-repeat;
   background-size: cover;
