@@ -2850,8 +2850,9 @@ textarea.form-control-lg {
 }
 
 .aligncenter {
-  width: 10%;
+  width: 25%;
   margin:0 auto;
+  display: block;
   }
 
 .btn-primary {
