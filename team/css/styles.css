@@ -4245,7 +4245,7 @@ textarea.form-control-lg {
 }
 
 .card-header {
-  padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+  padding: 13px;
   margin-bottom: 0;
   color: var(--bs-card-cap-color);
   background-color: var(--bs-card-cap-bg);
