@@ -2857,6 +2857,11 @@ textarea.form-control-lg {
 
   table {
     table-layout: fixed;
+    text-align:center;
+  }
+
+  table td {
+    vertical-align:middle;
     }
 
 .btn-primary {
