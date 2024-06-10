@@ -2855,6 +2855,10 @@ textarea.form-control-lg {
   display: block;
   }
 
+  table {
+    table-layout: fixed;
+    }
+
 .btn-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #f4623a;
