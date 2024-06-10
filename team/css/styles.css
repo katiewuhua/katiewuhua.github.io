@@ -91,6 +91,19 @@
   }
 }
 
+.shape-ex1{
+  
+}
+@keyframes fade {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -2810,6 +2823,7 @@ textarea.form-control-lg {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);
   border-color: var(--bs-btn-hover-border-color);
+
 }
 .btn-check + .btn:hover {
   color: var(--bs-btn-color);
@@ -10836,7 +10850,7 @@ body {
 }
 
 .page-section {
-  padding: 10rem 0;
+  padding: 10rem 0px;
 }
 
 .text-white-75 {
