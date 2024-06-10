@@ -172,9 +172,6 @@ p {
   margin-bottom: 1rem;
 }
 
-font{
-  font-size: 1000px;
-}
 
 abbr[title] {
   -webkit-text-decoration: underline dotted;
@@ -2851,6 +2848,11 @@ textarea.form-control-lg {
   border-color: var(--bs-btn-disabled-border-color);
   opacity: var(--bs-btn-disabled-opacity);
 }
+
+.aligncenter {
+  width: 10%;
+  margin:0 auto;
+  }
 
 .btn-primary {
   --bs-btn-color: #fff;
