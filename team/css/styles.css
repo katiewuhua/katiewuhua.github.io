@@ -172,6 +172,10 @@ p {
   margin-bottom: 1rem;
 }
 
+font{
+  font-size: 1000px;
+}
+
 abbr[title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
@@ -7660,7 +7664,7 @@ textarea.form-control-lg {
 }
 
 .mb-2 {
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .mb-3 {
