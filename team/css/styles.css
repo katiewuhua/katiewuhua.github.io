@@ -91,17 +91,7 @@
   }
 }
 
-.shape-ex1{
-  
-}
-@keyframes fade {
-  from {
-      opacity: 0;
-  }
-  to {
-      opacity: 1;
-  }
-}
+
 
 
 body {
@@ -7670,7 +7660,7 @@ textarea.form-control-lg {
 }
 
 .mb-2 {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .mb-3 {
