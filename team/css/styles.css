@@ -11025,6 +11025,10 @@ header.masthead h1, header.masthead .h1 {
   min-height: 30em;
 }
 
+.hign{
+  min-height: 32em;
+}
+
 .redredss {
   color:black;
 
@@ -11034,6 +11038,8 @@ header.masthead h1, header.masthead .h1 {
   background-size: cover;
   background-position: center;
 }
+
+.redredss + h3 {padding-top:1em;}
 .rrr{
 
   font-size: 20px;
