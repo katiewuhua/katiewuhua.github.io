@@ -11020,6 +11020,11 @@ header.masthead h1, header.masthead .h1 {
   color:black;
 
 }
+
+.height{
+  min-height: 30em;
+}
+
 .redredss {
   color:black;
 
