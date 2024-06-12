@@ -599,7 +599,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -10950,12 +10950,11 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/旅遊.jpeg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  background-position: center;
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
@@ -11078,4 +11077,46 @@ header.masthead h1, header.masthead .h1 {
   font-size: 1.5rem;
   margin-right: 1.5rem;
   margin: 0px,0px,24px,0px;
+}
+
+
+/********
+customize
+********/
+:root {
+  --pros-color:#3364FF;
+  --cons-color:#FF3346;
+}
+
+.pros,.cons {
+  padding:20px;
+  border-radius:10px;
+}
+.pros a.aaa,
+.cons a.aaa,
+.pros .aaaddd,
+.cons .aaaddd {
+  background:transparent
+}
+
+.pros:is(:hover) {
+  background:var(--pros-color);
+}
+
+.pros:is(:hover) .aaaddd {
+  color:var(--cons-color);
+}
+.cons:is(:hover) {
+  background:var(--cons-color )
+}
+
+.cons:is(:hover) .aaaddd
+{
+  color: var(--pros-color)
+}
+
+
+.pros:is(:hover) h2,
+.cons:is(:hover) h2 {
+  color:#fff !important;
 }
