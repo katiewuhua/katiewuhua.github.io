@@ -11084,8 +11084,8 @@ header.masthead h1, header.masthead .h1 {
 customize
 ********/
 :root {
-  --pros-color:#3364FF;
-  --cons-color:#FF3346;
+  --pros-color:#66B3FF;
+  --cons-color:#FF7575;
 }
 
 .pros,.cons {
