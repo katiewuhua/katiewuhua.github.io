@@ -11083,6 +11083,10 @@ header.masthead h1, header.masthead .h1 {
 /********
 customize
 ********/
+.w--100{
+  width:275px;
+}
+
 :root {
   --pros-color:#66B3FF;
   --cons-color:#FF9797;
